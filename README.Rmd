@@ -14,13 +14,18 @@ knitr::opts_chunk$set(
 ```
 
 # movementsync: Analysis and Visualisation of Musical Audio and Video Movement Synchrony Data
-<img src="man/figures/logo.png" align="right" height="139" />
+
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The goal of movementsync is to provide analysis and visualisation of synchrony, interaction, and joint movements from audio and video movement data of a group of music performers. Functions in the library offer analysis routines for visualising, selecting, and filtering data. Analysis functions for carrying out Granger causality analysis and wavelet analysis are included. Routines for combining movement data, music instrument onsets, and annotations are also offered in the library.
 
+<img src="man/figures/logo.png" align="right" height="80" />
+
+For documentation, see [Quick
+Guide](https://tuomaseerola.github.io/movementsync/articles/movementsync.html).
 
 **Note:** *Movement data* is obtained through analysis of videos using suitable computer vision techniques (e.g. [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) or obtaining motion capture data. Similarly, *onset data* is extracted from audio recordings using onset detection algorithms. Also, the *annotations* of rhythmic structures, musical events, or musical form of an ensemble performances can be carried out in [ELAN](https://archive.mpi.nl/tla/elan) or another annotation tool for audio and video. `movementsync` library does not deal with this initial extraction of pose from video or onsets from audio, but it offers a versatile suite of functions to analyse the extracted data.
 

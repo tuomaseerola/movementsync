@@ -3,8 +3,9 @@
 
 # movementsync: Analysis and Visualisation of Musical Audio and Video Movement Synchrony Data
 
-<img src="man/figures/logo.png" align="right" height="139" />
-<!-- badges: start --> [![Lifecycle:
+<!-- badges: start -->
+
+[![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
@@ -16,6 +17,11 @@ Analysis functions for carrying out Granger causality analysis and
 wavelet analysis are included. Routines for combining movement data,
 music instrument onsets, and annotations are also offered in the
 library.
+
+<img src="man/figures/logo.png" align="right" height="80" />
+
+For documentation, see [Quick
+Guide](https://tuomaseerola.github.io/movementsync/articles/movementsync.html).
 
 **Note:** *Movement data* is obtained through analysis of videos using
 suitable computer vision techniques
