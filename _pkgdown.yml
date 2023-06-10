@@ -1,0 +1,64 @@
+url: https://github.com/tuomaseerola/movementsync
+template:
+  bootstrap: 5
+reference:
+- title: "Datasets"
+  desc: "Datasets that come with movementsync"
+  contents:
+  - starts_with("NIR_ABh_Puriya_")
+- title: "Obtaining data"
+  desc: "Obtaining data"
+  contents:
+  - starts_with("get_")
+  - starts_with("list_")
+  - starts_with("sample_")
+  - starts_with("pull_")
+  - starts_with("merge")
+  - starts_with("is_")
+  - starts_with("open_")
+- title: "Organising data"
+  desc: "Organising data"
+  contents:
+  - starts_with("splice_")
+  - starts_with("subset")
+  - starts_with("sample_")
+  - starts_with("pull_")
+  - starts_with("merge")
+  - starts_with("clip_")
+  - starts_with("apply_")
+  - starts_with("sapply_")
+  - starts_with("split")
+- title: "Plotting"
+  desc: "Plotting functions"
+  contents:
+  - starts_with("auto")
+  - starts_with("visual")
+  - starts_with("plot")
+  - starts_with("motion")
+  - starts_with("distribution")
+  - starts_with("velocity_dp")
+  - starts_with("xlim_")
+- title: "Summary functions"
+  desc: "Summary functions"
+  contents:
+  - starts_with("summary")
+  - starts_with("difference")
+
+- title: "Wavelet functions"
+  desc: "Wavelet functions"
+  contents:
+  - starts_with("compare_")
+  - starts_with("calculate_")
+  - starts_with("ave_")
+  - starts_with("analyze_")
+  - starts_with("spec_")
+  - starts_with("specgram_")
+  - starts_with("spectral_")
+- title: "Granger functions"
+  desc: "Granger functions"
+  contents:
+  - starts_with("granger_")
+  - starts_with("map_")
+  - starts_with("ms_")
+  - starts_with("analyze_")
+  - starts_with("spec_")
