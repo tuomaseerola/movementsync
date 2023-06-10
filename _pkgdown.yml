@@ -62,3 +62,5 @@ reference:
   - starts_with("ms_")
   - starts_with("analyze_")
   - starts_with("spec_")
+home:
+  title: movementsync - Analysis and Visualisation of Musical Audio and Video Movement Synchrony Data (R package)
