@@ -81,8 +81,10 @@
 <img src="logo.png" class="logo" alt=""><h1 id="movementsync-analysis-and-visualisation-of-musical-audio-and-video-movement-synchrony-data">movementsync: Analysis and Visualisation of Musical Audio and Video Movement Synchrony Data<a class="anchor" aria-label="anchor" href="#movementsync-analysis-and-visualisation-of-musical-audio-and-video-movement-synchrony-data"></a>
 </h1>
 </div>
-<p><img src="reference/figures/logo.png" align="right" height="139"><!-- badges: start --><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a> <!-- badges: end --></p>
-<p>The goal of movementsync is to provide analysis and visualisation of synchrony, interaction, and joint movements from audio and video movement data of a group of music performers. Functions in the library offer analysis routines for visualising, selecting, and filtering data. Analysis functions for carrying out Granger causality analysis and wavelet analysis are included. Routines for combining movement data, music instrument onsets, and annotations are also offered in the library.</p>
+<!-- badges: start -->
+
+<p>The goal of <code>movementsync</code> library is to provide analysis and visualisation of synchrony, interaction, and joint movements from audio and video movement data of a group of music performers. Functions in the library offer analysis routines for visualising, selecting, and filtering data. Analysis functions for carrying out Granger causality analysis and wavelet analysis are included. Routines for combining movement data, music instrument onsets, and annotations are also offered in the library.</p>
+<p>For documentation, see <a href="https://tuomaseerola.github.io/movementsync/articles/movementsync.html" class="external-link">Quick Guide</a>.</p>
 <p><strong>Note:</strong> <em>Movement data</em> is obtained through analysis of videos using suitable computer vision techniques (e.g. <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" class="external-link">openpose</a> or obtaining motion capture data. Similarly, <em>onset data</em> is extracted from audio recordings using onset detection algorithms. Also, the <em>annotations</em> of rhythmic structures, musical events, or musical form of an ensemble performances can be carried out in <a href="https://archive.mpi.nl/tla/elan" class="external-link">ELAN</a> or another annotation tool for audio and video. <code>movementsync</code> library does not deal with this initial extraction of pose from video or onsets from audio, but it offers a versatile suite of functions to analyse the extracted data.</p>
 <p>The library supports the open data described in Clayton, Leante, and Tarsitani (2021) <a href="doi:10.17605/OSF.IO/KS325" class="uri">doi:10.17605/OSF.IO/KS325</a>. Example analyses can be found in Clayton, Jakubowski, and Eerola (2019) <a href="doi:10.1177/1029864919844809" class="uri">doi:10.1177/1029864919844809</a>. Wavelet analysis techniques applied to musical interactions have been reported in Eerola et al. (2018) <a href="doi:10.1098/rsos.171520" class="uri">doi:10.1098/rsos.171520</a>.</p>
 <div class="section level2">
@@ -178,6 +180,7 @@
 <code class="sourceCode R"><span><span class="va">maximum.level</span> <span class="op">&lt;-</span> <span class="fl">1.001</span><span class="op">*</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">max</a></span><span class="op">(</span><span class="va">w</span><span class="op">$</span><span class="va">Power.avg</span><span class="op">)</span></span>
 <span><span class="fu"><a href="reference/plot_average_power.html">plot_average_power</a></span><span class="op">(</span><span class="va">w</span>, <span class="va">pv1</span>, maximum.level <span class="op">=</span> <span class="va">maximum.level</span>, show.siglvl<span class="op">=</span><span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-ex10-1.png" width="70%"></p>
+<p>For more examples, see <a href="https://tuomaseerola.github.io/movementsync/articles/movementsync.html" class="external-link">Quick Guide</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
@@ -226,7 +229,12 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
