@@ -21,7 +21,7 @@ movement data, music instrument onsets, and annotations are also offered
 in the library.
 
 For documentation, see [Quick
-Guide](https://tuomaseerola.github.io/movementsync/articles/movementsync.html).
+Guide](https://tuomaseerola.github.io/movementsync/).
 
 **Note:** *Movement data* is obtained through analysis of videos using
 suitable computer vision techniques
@@ -198,7 +198,7 @@ plot_average_power(w, pv1, maximum.level = maximum.level, show.siglvl=FALSE)
 <img src="man/figures/README-ex10-1.png" width="70%" />
 
 For more examples, see [Quick
-Guide](https://tuomaseerola.github.io/movementsync/articles/movementsync.html).
+Guide](https://tuomaseerola.github.io/movementsync/).
 
 ## References
 
