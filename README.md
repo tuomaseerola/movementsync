@@ -9,16 +9,16 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of movementsync is to provide analysis and visualisation of
-synchrony, interaction, and joint movements from audio and video
-movement data of a group of music performers. Functions in the library
-offer analysis routines for visualising, selecting, and filtering data.
-Analysis functions for carrying out Granger causality analysis and
-wavelet analysis are included. Routines for combining movement data,
-music instrument onsets, and annotations are also offered in the
-library.
+<img src="man/figures/logo.png" align="right" height="100" />
 
-<img src="man/figures/logo.png" align="right" height="80" />
+The goal of `movementsync` library is to provide analysis and
+visualisation of synchrony, interaction, and joint movements from audio
+and video movement data of a group of music performers. Functions in the
+library offer analysis routines for visualising, selecting, and
+filtering data. Analysis functions for carrying out Granger causality
+analysis and wavelet analysis are included. Routines for combining
+movement data, music instrument onsets, and annotations are also offered
+in the library.
 
 For documentation, see [Quick
 Guide](https://tuomaseerola.github.io/movementsync/articles/movementsync.html).
@@ -196,6 +196,9 @@ plot_average_power(w, pv1, maximum.level = maximum.level, show.siglvl=FALSE)
 ```
 
 <img src="man/figures/README-ex10-1.png" width="70%" />
+
+For more examples, see [Quick
+Guide](https://tuomaseerola.github.io/movementsync/articles/movementsync.html).
 
 ## References
 
